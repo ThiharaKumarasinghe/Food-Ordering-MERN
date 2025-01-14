@@ -1,9 +1,10 @@
+import Layout from "@/layouts/layout";
 import { Navigate, Route, Routes } from "react-router-dom";
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<span>Home page</span>} />
+      <Route path="/" element={<Layout>Home page test</Layout>} />
       <Route path="/user" element={<span>User page</span>} />
 
 
